@@ -35,9 +35,9 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    padding: 10px 10%;
+    padding: 10px 5%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: baseline;
     box-shadow: 0 2px 2px #f1eded;
 }
@@ -79,4 +79,68 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+}
+
+/*Main Content Styles */
+main {
+    margin-top: 67px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Hero Styles */
+#hero {
+    background: url('../images/hero.webp') no-repeat center center / cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#hero-cover-text {
+    /* final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(214, 60, 129, 0.7);
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+#hero-cover-text>h2,
+#hero-cover-text>h3 {
+    color: #ffffff;
+}
+
+#menu-button {
+    display: inline-block;
+    background-color: #F21277ff;
+    color: #F0F4F7ff;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 32px;
+    border-radius: 6px;
+    box-shadow: 1rem 1rem #a596a2;
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
