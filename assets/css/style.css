@@ -35,9 +35,9 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    padding: 30px 10%;
+    padding: 10px 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: baseline;
     box-shadow: 0 2px 2px #f1eded;
 }
@@ -51,3 +51,32 @@ header a:hover {
     border-bottom: 2px solid #252525;
 }
 
+/* Navbar Styles */
+#menu {
+    list-style-type: none;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
