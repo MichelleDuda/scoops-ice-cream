@@ -103,14 +103,15 @@ main {
     /* final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(214, 60, 129, 0.7);
     font-size: 100%;
+    text-align: right;
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: 30px;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
     padding-bottom: 25px;
-    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #hero-cover-text>h2,
@@ -177,3 +178,21 @@ main {
     #nav-toggle-label {
         display: none;
     }
+
+    #company-name {
+        font-size: 250%;
+    }
+
+     /* Main Content */
+     main{
+        /* Push main content down to accomodate larger header */
+        margin-top: 80px;
+    }
+
+    #hero-cover-text {
+        font-size: 120%;
+        width: 400px;
+        right: 50px;
+    }
+
+}
