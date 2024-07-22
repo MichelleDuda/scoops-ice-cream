@@ -135,7 +135,7 @@ main {
 /*Menu Page Syles */
  #menu-header {
     background: url('../images/hero.webp') no-repeat center center / cover;
-    height: 400px;
+    height: 200px;
     width: 100%;
     position: relative; 
     display: flex;
@@ -144,16 +144,29 @@ main {
 }
 
 #menu-header-text {
-    background-color: rgba(214, 60, 129, 0.7);
+    background-color: rgba(214, 60, 129, 0.9);
     font-size: 180%;
     border-radius: 10px;
     text-align: center;
     padding: 5px;
 }
 
-#menu-header-text h1, h2, h3 {
+
+
+#menu-header-text  h1, h2, h3 {
     color: #ffffff;
 }
+
+#cones {
+    background: url('../images/cones2.jpg') no-repeat center center / cover;
+}
+
+#cones-flavor
+{
+    border-top: solid 2px #ffffff;
+
+}
+
 
 
 /* Footer */
@@ -211,6 +224,11 @@ main {
     }
 
     /* Menu Page */
+
+    #menu-header {
+        height: 400px;
+    }
+    
     #menu-header-text {
         font-size: 220%;
 
