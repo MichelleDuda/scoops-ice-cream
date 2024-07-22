@@ -133,13 +133,28 @@ main {
 }
 
 /*Menu Page Syles */
- #ice-cream-menu {
+ #menu-header {
     background: url('../images/hero.webp') no-repeat center center / cover;
-    min-height: 100vh;
+    height: 400px;
     width: 100%;
-    position: relative;
-    
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
+
+#menu-header-text {
+    background-color: rgba(214, 60, 129, 0.7);
+    font-size: 180%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+#menu-header-text h1, h2, h3 {
+    color: #ffffff;
+}
+
 
 /* Footer */
 #social-networks {
@@ -179,14 +194,14 @@ main {
         display: none;
     }
 
-    #company-name {
-        font-size: 250%;
+    #logo {
+        font-size: 280%;
     }
 
      /* Main Content */
      main{
         /* Push main content down to accomodate larger header */
-        margin-top: 80px;
+        margin-top: 86px;
     }
 
     #hero-cover-text {
@@ -194,5 +209,9 @@ main {
         width: 400px;
         right: 50px;
     }
+
+    /* Menu Page */
+    #menu-header-text {
+        font-size: 220%;
 
 }
