@@ -151,22 +151,39 @@ main {
     padding: 5px;
 }
 
-
-
 #menu-header-text  h1, h2, h3 {
     color: #ffffff;
 }
 
-#cones {
-    background: url('../images/cones2.jpg') no-repeat center center / cover;
+/* Menu Page - Flavors Menu Section */
+#flavor-menu {
+    background-color: #F21277ff;
+    /* handles resonsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#cones-flavor
-{
-    border-top: solid 2px #ffffff;
-
+#flavor-menu div {
+    color: #fafafa;
+    padding: 15px;
+    text-align: center;
+    /*Each div will expand to fill the available space on its row to a maximum of 4 divs per row */ 
+    flex: 1 0 21%;
+    /* create border around each flavor block */
+    border: 5px solid white;
 }
 
+#flavor-menu h3 {
+    /* override the heading color set in general styles */
+    color: #fafafa;
+} 
+
+#flavor-menu img {
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
 
 
 /* Footer */
