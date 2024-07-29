@@ -160,6 +160,7 @@ main {
     /* handles resonsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
+    border: 10px solid rgba(214, 60, 129, 0.7);
 }
 
 #flavor-menu div {
@@ -169,10 +170,10 @@ main {
     /*Each div will expand to fill the available space on its row to a maximum of 4 divs per row */ 
     flex: 1 0 21%;
     /* create border around each flavor block */
-    border: 5px solid white;
+    border: 10px solid rgba(214, 60, 129, 0.7);
 }
 
-#flavor-menu h3 {
+#flavor-menu h2 {
     /* override the heading color set in general styles */
     color: #252525;
 } 
