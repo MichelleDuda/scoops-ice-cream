@@ -188,7 +188,7 @@ main {
 /* Contact Us Page */
   /*Sign up Page */
   #contact {
-    background: url("../images/cones.webp") 75% / cover;
+    background: url("../images/hero.webp") 75% / cover;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
