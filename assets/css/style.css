@@ -157,14 +157,13 @@ main {
 
 /* Menu Page - Flavors Menu Section */
 #flavor-menu {
-    background-color: #F21277ff;
     /* handles resonsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
 }
 
 #flavor-menu div {
-    color: #fafafa;
+    color: #252525;
     padding: 15px;
     text-align: center;
     /*Each div will expand to fill the available space on its row to a maximum of 4 divs per row */ 
@@ -175,7 +174,7 @@ main {
 
 #flavor-menu h3 {
     /* override the heading color set in general styles */
-    color: #fafafa;
+    color: #252525;
 } 
 
 #flavor-menu img {
@@ -183,6 +182,47 @@ main {
     text-align: center;
     width: 100%;
     height: auto;
+}
+
+
+/* Contact Us Page */
+  /*Sign up Page */
+  #contact {
+    background: url("../images/cones.webp") 75% / cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(60,60,60,0.6);
+    padding: 30px;
+}
+
+#contact-form h2 {
+    color: #fafafa; 
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    padding: 0 5px;
+}
+
+
+.submit-button {
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px 32px;
+    border-radius: 2px;
 }
 
 
