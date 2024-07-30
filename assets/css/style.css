@@ -132,6 +132,31 @@ main {
     box-shadow: .5rem .5rem #a596a2;
 }
 
+#selling-points{
+    /* handles resonsivity without the need for a media query */
+    display: flex;
+    border: 10px solid white;
+}
+
+#selling-points div {
+    color: #252525;
+    padding: 15px;
+    text-align: center;
+    justify-content: space-evenly;
+    /* create border around each flavor block */
+    border: 10px solid white;
+}
+
+#farmfresh {
+    background: url('../images/milk.webp') no-repeat center center / cover;
+    min-height: 180px;
+}
+
+#smallbatch {
+    background: url('../images/batch.webp') no-repeat center center / cover;
+    min-height: 180px;
+}
+
 /*Menu Page Syles */
  #menu-header {
     background: url('../images/hero.webp') no-repeat center center / cover;
@@ -165,7 +190,7 @@ main {
 
 #flavor-menu div {
     color: #252525;
-    padding: 15px;
+    padding: 25px;
     text-align: center;
     /*Each div will expand to fill the available space on its row to a maximum of 4 divs per row */ 
     flex: 1 0 21%;
@@ -183,6 +208,8 @@ main {
     text-align: center;
     width: 100%;
     height: auto;
+    max-width: 201.22px;
+    max-height: 170.05px;
 }
 
 
