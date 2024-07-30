@@ -133,29 +133,21 @@ main {
 }
 
 #selling-points{
-    /* handles resonsivity without the need for a media query */
     display: flex;
-    border: 10px solid white;
+}
+
+#selling-points h3, #price-list h3, #price-list h2{
+    color: #252525;
 }
 
 #selling-points div {
     color: #252525;
     padding: 15px;
     text-align: center;
-    justify-content: space-evenly;
-    /* create border around each flavor block */
-    border: 10px solid white;
+    justify-content: space-between;
+    flex-basis: 33.333%;
 }
 
-#farmfresh {
-    background: url('../images/milk.webp') no-repeat center center / cover;
-    min-height: 180px;
-}
-
-#smallbatch {
-    background: url('../images/batch.webp') no-repeat center center / cover;
-    min-height: 180px;
-}
 
 /*Menu Page Syles */
  #menu-header {
