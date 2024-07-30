@@ -22,7 +22,9 @@ body {
     color: #252525;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -132,11 +134,13 @@ main {
     box-shadow: .5rem .5rem #a596a2;
 }
 
-#selling-points{
+#selling-points {
     display: flex;
 }
 
-#selling-points h3, #price-list h3, #price-list h2{
+#selling-points h3,
+#price-list h3,
+#price-list h2 {
     color: #252525;
 }
 
@@ -150,14 +154,14 @@ main {
 
 
 /*Menu Page Syles */
- #menu-header {
+#menu-header {
     background: url('../images/hero.webp') no-repeat center center / cover;
     height: 200px;
     width: 100%;
-    position: relative; 
+    position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 #menu-header-text {
@@ -168,7 +172,9 @@ main {
     padding: 5px;
 }
 
-#menu-header-text  h1, h2, h3 {
+#menu-header-text h1,
+h2,
+h3 {
     color: #ffffff;
 }
 
@@ -184,8 +190,7 @@ main {
     color: #252525;
     padding: 25px;
     text-align: center;
-    /*Each div will expand to fill the available space on its row to a maximum of 4 divs per row */ 
-    flex: 1 0 21%;
+    flex: 1 0 50%;
     /* create border around each flavor block */
     border: 10px solid rgba(214, 60, 129, 0.7);
 }
@@ -193,7 +198,7 @@ main {
 #flavor-menu h2 {
     /* override the heading color set in general styles */
     color: #252525;
-} 
+}
 
 #flavor-menu img {
     border-radius: 20px;
@@ -206,8 +211,8 @@ main {
 
 
 /* Contact Us Page */
-  /*Sign up Page */
-  #contact {
+/*Sign up Page */
+#contact {
     background: url("../images/hero.webp") 75% / cover;
     padding: 20px 10% 0 10%;
     display: flex;
@@ -217,12 +222,12 @@ main {
 
 #contact-form {
     color: #ffffff;
-    background-color: rgba(60,60,60,0.6);
+    background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
 #contact-form h2 {
-    color: #fafafa; 
+    color: #fafafa;
     margin-bottom: 20px;
 }
 
@@ -265,6 +270,7 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -290,8 +296,8 @@ main {
         font-size: 280%;
     }
 
-     /* Main Content */
-     main{
+    /* Main Content */
+    main {
         /* Push main content down to accomodate larger header */
         margin-top: 86px;
     }
@@ -307,8 +313,20 @@ main {
     #menu-header {
         height: 400px;
     }
-    
+
     #menu-header-text {
         font-size: 220%;
 
+    }
+
+    #flavor-menu div {
+        flex: 1 0 33.333%;
+    }
+}
+
+/* Media query: Larger devices - laptops & desktops (992px and up) */
+@media screen and (min-width: 992px) {
+    #flavor-menu div {
+        flex: 1 0 25%;
+    }
 }
