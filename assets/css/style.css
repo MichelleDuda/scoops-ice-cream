@@ -136,6 +136,7 @@ main {
 
 #selling-points {
     display: flex;
+    flex: wrap;
 }
 
 #selling-points h3,
@@ -148,7 +149,6 @@ main {
     color: #252525;
     padding: 15px;
     text-align: center;
-    justify-content: space-between;
     flex-basis: 33.333%;
 }
 
@@ -214,10 +214,33 @@ h3 {
 /*Sign up Page */
 #contact {
     background: url("../images/hero.webp") 75% / cover;
-    padding: 20px 10% 0 10%;
+    padding: 10px 5% 0 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+}
+
+#contact div{
+    padding: 25px;
+    text-align: left;
+    justify-content: space-between;
+    flex: 1 0;
+}
+
+#map-container {
+    width: 100%;
+    height: 250px;
+}
+#map {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+#find-us {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
 }
 
 #contact-form {
