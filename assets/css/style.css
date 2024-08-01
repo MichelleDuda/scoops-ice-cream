@@ -139,17 +139,23 @@ main {
     flex: wrap;
 }
 
-#selling-points h3,
-#price-list h3,
-#price-list h2 {
-    color: #252525;
-}
-
 #selling-points div {
     color: #252525;
     padding: 15px;
     text-align: center;
     flex-basis: 33.333%;
+}
+
+#information {
+    display: flex;
+    flex: wrap;
+}
+
+#information div {
+    color: #252525;
+    padding: 15px;
+    text-align: center;
+    flex-basis: 50%;
 }
 
 
