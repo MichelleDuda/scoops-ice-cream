@@ -148,8 +148,16 @@ main {
 
 #information div {
     color: #252525;
-    padding: 15px;
-    text-align: center;
+}
+
+#hours {
+    display: flex;
+    justify-content: center;
+}
+
+#days {
+    padding: 0 5px 0 0;
+    text-align: left;
 }
 
 
