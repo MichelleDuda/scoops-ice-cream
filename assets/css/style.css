@@ -209,6 +209,23 @@ h3 {
     max-height: 170.05px;
 }
 
+#price-list {
+    display: flex;
+    flex: wrap;
+}
+
+.black-text {
+    color: #252525;
+}
+.center {
+    text-align: center;
+}
+#price-list div {
+    color: #252525;
+    padding: 15px;
+    text-align: center;
+    flex-basis: 33.333%;
+}
 
 /* Contact Us Page */
 /*Sign up Page */
