@@ -55,7 +55,8 @@
 
 ### Lighthouse Testing
 
-
+### Bugs
+1. HTML Validator found stray end tag of for main element at line 155. Fixed.
 ### Known Bugs
 
 
