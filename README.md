@@ -24,6 +24,14 @@
       * quickly access the opening hours.
       * provide feedback or ask questions.
 
+
+## Design
+
+
+## Features
+
+
+
 ## Technologies Used
 
 ### Languages
@@ -44,6 +52,9 @@
 - [CSS Validator](https://jigsaw.w3.org/css-validator)
 
 ### Browser Compatibility
+
+### Lighthouse Testing
+
 
 ### Known Bugs
 
