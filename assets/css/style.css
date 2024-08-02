@@ -262,7 +262,7 @@ main {
     padding: 5px;
 }
 
-#contact-header-text h1 {
+#contact-header-text h2 {
     color: #fafafa;
 }
 
@@ -447,8 +447,7 @@ footer {
 
     /* Menu Page */
 
-    #menu-header,
-    #contact-header {
+    #menu-header {
         height: 400px;
     }
 
@@ -459,6 +458,16 @@ footer {
 
     #flavor-menu div {
         flex: 1 0 33.333%;
+    }
+
+    /* Contact Page */
+    #contact-header {
+        height: 400px;
+    }
+
+    #contact-header-text {
+        font-size: 220%;
+
     }
 
     /* Footer Section */
