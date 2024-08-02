@@ -294,28 +294,28 @@ main {
 }
 
 #find-us {
-    color: #ffffff;
-    background-color: rgba(214, 60, 129, 0.9);
+    color: #252525;
+    background-color: #ffffff;
     padding: 30px;
+    border: 10px solid rgba(214, 60, 129, 0.7);
 }
 
 #contact-form {
-    color: #ffffff;
-    background-color: rgba(214, 60, 129, 0.9);
+    color: #252525;
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 20px;
+    border: 10px solid rgba(214, 60, 129, 0.7);
 }
 
 #contact-form h2 {
-    color: #fafafa;
     margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
     width: 100%;
-    border: 1px solid #fafafa;
+    border: 1px solid #252525;
     border-radius: 2px;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -327,7 +327,7 @@ main {
 }
 
 ::placeholder {
-    color: #fafafa;
+    color: #252525;
 }
 
 
