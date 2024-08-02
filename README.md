@@ -49,6 +49,18 @@
 ### Validator Testing
 - [HTML Validator](https://validator.w3.org/)
 
+  - result for index.html
+      ![HTML results index](documentation/validation-results/validation-no-error.jpg)
+  - result for menu.html
+      ![HTML results index](documentation/validation-results/validation-no-error.jpg)
+  - result for contact.html
+      ![HTML results index](documentation/validation-results/validation-no-error.jpg)
+  - result for confirmation.html
+      ![HTML results index](documentation/validation-results/validation-no-error.jpg)
+
+  - Full Validation Results available:
+    - <a href="https://github.com/michelleduda/scoops-ice-cream/main/documentation/validation-results/html-validation-index.pdf" target="_blank">HTML Results - Home Page</a>
+
 - [CSS Validator](https://jigsaw.w3.org/css-validator)
 
 ### Browser Compatibility
