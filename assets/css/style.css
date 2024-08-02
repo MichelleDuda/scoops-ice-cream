@@ -33,13 +33,14 @@ h3 {
 .black-text {
     color: #252525;
 }
+
 .center {
     text-align: center;
 }
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color:#F6E0EA;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -71,7 +72,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #F6E0EA;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -99,8 +100,7 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-bottom: 25px;
 }
 
 /* Hero Styles */
@@ -144,6 +144,12 @@ main {
     box-shadow: .5rem .5rem #a596a2;
 }
 
+#about-us {
+    text-align: center;
+    padding: 15px;
+}
+
+
 #selling-points div {
     color: #252525;
     padding: 15px;
@@ -185,8 +191,8 @@ main {
 }
 
 #menu-header-text h1,
-h2,
-h3 {
+#menu-header-text h2,
+#menu-header-text h3 {
     color: #ffffff;
 }
 
@@ -224,6 +230,7 @@ h3 {
 #price-list h3 {
     text-align: center;
 }
+
 .pricing {
     display: flex;
     justify-content: center;
@@ -247,7 +254,7 @@ h3 {
     align-items: center;
 }
 
-#contact-header-text{
+#contact-header-text {
     background-color: rgba(214, 60, 129, 0.9);
     font-size: 180%;
     border-radius: 10px;
@@ -266,7 +273,7 @@ h3 {
     flex-wrap: wrap;
 }
 
-#contact div{
+#contact div {
     padding: 25px;
     text-align: left;
     justify-content: space-between;
@@ -355,6 +362,18 @@ h3 {
 
 
 /* Footer */
+
+footer {
+    border-top: 2px dotted #dfcfdc;
+    padding-top: 25px;
+    background-color:#F6E0EA;
+}
+
+.middle-container {
+    text-align: center;
+    justify-content: center;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -368,6 +387,7 @@ h3 {
     padding: 5%;
     color: #3a3a3a;
 }
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -413,7 +433,7 @@ h3 {
         display: flex;
         flex: wrap;
     }
-    
+
     #selling-points div {
         color: #252525;
         padding: 15px;
@@ -427,7 +447,8 @@ h3 {
 
     /* Menu Page */
 
-    #menu-header, #contact-header {
+    #menu-header,
+    #contact-header {
         height: 400px;
     }
 
@@ -440,50 +461,65 @@ h3 {
         flex: 1 0 33.333%;
     }
 
-}
+    /* Footer Section */
 
-
-/* Media query: Larger devices - laptops & desktops (825px and up) */
-@media screen and (min-width: 825px) {
-    #price-list {
+    #footer-container {
         display: flex;
-        flex: wrap;
-    }
-
-    #price-list div {
+        flex-direction: row;
         flex-basis: 33.333%;
+        justify-content: space-evenly;
     }
 
-    .pricing {
-        margin 0 10% 0 10%;
+    .middle-container {
+        order: 3;
     }
 
-    .price{
-        padding-left: 5%;
-    }
-
-    .measure {
-        padding-right: 5px;
-    }
-
-    .measure p {
-        padding-left: 20%;
+    #social-networks {
+        flex-direction: column;
     }
 
 
-}
+    /* Media query: Larger devices - laptops & desktops (825px and up) */
+    @media screen and (min-width: 825px) {
+        #price-list {
+            display: flex;
+            flex: wrap;
+        }
 
-/* Media query: Larger devices - laptops & desktops (992px and up) */
-@media screen and (min-width: 992px) {
-    #flavor-menu div {
-        flex: 1 0 25%;
-    }
-}
+        #price-list div {
+            flex-basis: 33.333%;
+        }
 
-/* Media query: Larger devices - laptops & desktops (1200px and up) */
-@media screen and (min-width: 1200px) {
-    .measure {
-        padding-left: 50px;
-        padding-right: 5px;
+        .pricing {
+            margin 0 10% 0 10%;
+        }
+
+        .price {
+            padding-left: 5%;
+        }
+
+        .measure {
+            padding-right: 5px;
+        }
+
+        .measure p {
+            padding-left: 20%;
+        }
+
+
     }
-}
+
+    /* Media query: Larger devices - laptops & desktops (992px and up) */
+    @media screen and (min-width: 992px) {
+        #flavor-menu div {
+            flex: 1 0 25%;
+        }
+    }
+
+    /* Media query: Larger devices - laptops & desktops (1200px and up) */
+    @media screen and (min-width: 1200px) {
+        .measure {
+            padding-left: 50px;
+            padding-right: 5px;
+        }
+    }
