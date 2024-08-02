@@ -160,7 +160,7 @@ main {
 }
 
 #days {
-    padding: 0 5px 0 0;
+    padding: 0 10px 0 0;
     text-align: left;
 }
 
@@ -221,8 +221,17 @@ h3 {
     max-height: 170.05px;
 }
 
-#price-list div {
+#price-list h3 {
     text-align: center;
+}
+.pricing {
+    display: flex;
+    justify-content: center;
+}
+
+.measure {
+    text-align: left;
+    padding: 0 10px 0 0;
 }
 
 
@@ -431,16 +440,34 @@ h3 {
         flex: 1 0 33.333%;
     }
 
+}
+
+
+/* Media query: Larger devices - laptops & desktops (825px and up) */
+@media screen and (min-width: 825px) {
     #price-list {
         display: flex;
         flex: wrap;
     }
 
     #price-list div {
-        color: #252525;
-        padding: 15px;
-        text-align: center;
         flex-basis: 33.333%;
+    }
+
+    .pricing {
+        margin 0 10% 0 10%;
+    }
+
+    .price{
+        padding-left: 5%;
+    }
+
+    .measure {
+        padding-right: 5px;
+    }
+
+    .measure p {
+        padding-left: 20%;
     }
 
 
@@ -450,5 +477,13 @@ h3 {
 @media screen and (min-width: 992px) {
     #flavor-menu div {
         flex: 1 0 25%;
+    }
+}
+
+/* Media query: Larger devices - laptops & desktops (1200px and up) */
+@media screen and (min-width: 1200px) {
+    .measure {
+        padding-left: 50px;
+        padding-right: 5px;
     }
 }
