@@ -135,7 +135,7 @@ main {
     display: inline-block;
     background-color: #F21277ff;
     color: #F0F4F7ff;
-    border: solid, 1px, rgb(192, 17, 96);
+    border: solid 1px rgb(192, 17, 96);
     font-size: 1.5rem;
     text-align: center;
     text-decoration: none;
@@ -431,7 +431,6 @@ footer {
 
     #selling-points {
         display: flex;
-        flex: wrap;
     }
 
     #selling-points div {
@@ -492,15 +491,10 @@ footer {
     @media screen and (min-width: 825px) {
         #price-list {
             display: flex;
-            flex: wrap;
         }
 
         #price-list div {
             flex-basis: 33.333%;
-        }
-
-        .pricing {
-            margin 0 10% 0 10%;
         }
 
         .price {
@@ -532,3 +526,4 @@ footer {
             padding-right: 5px;
         }
     }
+}
