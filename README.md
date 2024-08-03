@@ -27,9 +27,35 @@
 
 ## Design
 
+### Colour
+The colour scheme for this website is pink with white and black accents. The pink colour was extracted from the hero image using Microsoft Paint. 
+
+### Fonts
+Google Fonts was used to import the Lato and Oswald fonts. These were chosen as they compliment each other well and have a simple and modern aesthetic. 
+
+### Wireframes
+
+<details><summary>Home</summary>
+<img src="documentation/wireframes/Mobile-Phone-Home.png">
+<img src="documentation/wireframes/Tablet-Home.png">
+<img src="documentation/wireframes/Laptop-Home.png">
+</details>
+<details><summary>Menu</summary>
+<img src="documentation/wireframes/Mobile-Phone-Menu.png">
+<img src="documentation/wireframes/Tablet-Menu.png">
+<img src="documentation/wireframes/Laptop-Menu.png">
+</details>
+<details><summary>Contact</summary>
+<img src="documentation/wireframes/Mobile-Phone-Contact.png">
+<img src="documentation/wireframes/Tablet-Contact.png">
+<img src="documentation/wireframes/Laptop-Contact.png">
+</details>
+
 
 ## Features
 
+### Logo and Navigation Bar
+- A simple and interactive Logo and Navigation Bar is located at the top of each page. 
 
 
 ## Technologies Used
@@ -49,23 +75,40 @@
 ### Validator Testing
 - [HTML Validator](https://validator.w3.org/)
 
-  - result for index.html
+  - Result for index.html
       ![HTML results index](documentation/validation-results/validation-no-error.jpg)
-  - result for menu.html
-      ![HTML results index](documentation/validation-results/validation-no-error.jpg)
-  - result for contact.html
-      ![HTML results index](documentation/validation-results/validation-no-error.jpg)
-  - result for confirmation.html
-      ![HTML results index](documentation/validation-results/validation-no-error.jpg)
+  - Result for menu.html
+      ![HTML results menu](documentation/validation-results/validation-no-error.jpg)
+  - Result for contact.html
+      ![HTML results contact](documentation/validation-results/validation-no-error.jpg)
+  - Result for confirmation.html
+      ![HTML results confirmation](documentation/validation-results/validation-no-error.jpg)
+
 
   - Full Validation Results available:
-    - <a href="https://github.com/michelleduda/scoops-ice-cream/main/documentation/validation-results/html-validation-index.pdf" target="_blank">HTML Results - Home Page</a>
+    - <a href="https://github.com/michelleduda/scoops-ice-cream/blob/main/documentation/validation-results/html-validation-index.pdf" target="_blank">HTML Results - Home Page</a>
+    - <a href="https://github.com/michelleduda/scoops-ice-cream/blob/main/documentation/validation-results/html-validation-menu.pdf" target="_blank">HTML Results - Menu Page</a>
+    - <a href="https://github.com/michelleduda/scoops-ice-cream/blob/main/documentation/validation-results/html-validation-contact.pdf" target="_blank">HTML Results - Contact Us Page</a>
+    - <a href="https://github.com/michelleduda/scoops-ice-cream/blob/main/documentation/validation-results/html-validation-confirmation.pdf" target="_blank">HTML Results - Confirmation Page</a>
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator)
+  - Result for style.css
+      ![CSS results](documentation/validation-results/css-no-errors.jpg)
+
+  - Full Validation Results available:
+    - <a href="https://github.com/michelleduda/scoops-ice-cream/blob/main/documentation/validation-results/css-validation-results.pdf" target="_blank">CSS Results</a>
 
 ### Browser Compatibility
 
 ### Lighthouse Testing
+- Lighthouse result for index.html
+    ![Lighthouse results index](documentation/lighthouse/lighthouse_index.jpg)
+- Lighthouse result for menu.html
+    ![Lighthouse results menu](documentation/lighthouse/lighthouse_menu.jpg)
+- Lighthouse result for contact.html
+    ![Lighthouse results conatct](documentation/lighthouse/lighthouse_contact.jpg)
+- Lighthouse result for confirmation.html
+    ![Lighthouse results confirmation](documentation/lighthouse/lighthouse_confirmation.jpg)
 
 ### Bugs
 1. HTML Validator found stray end tag of for main element at line 155. Fixed.
