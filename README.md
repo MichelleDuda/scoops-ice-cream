@@ -3,32 +3,54 @@
 ![Scoops](documentation/scoops.jpg)
 
 ## Index - Table of Contents
+* [Introduction](#introduction)
+* [User Experience (UX)](#user-experience-ux) 
+* [Target Audience](#target-audience) 
+* [Site Goals](#site-goals) 
+* [Design](#design)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
+## Introduction
+This website is for SCOOPS, a fictional artisan ice cream company located in Beale, County Kerry, Ireland. The company is focused on creating small batches of handmade quality product with fresh local ingredients. 
+
+The website is targeted to users who want to purchase artisan ice cream made with quality ingredients. The site exhibits the various flavors offered as well as other important information to help users locate the business and purchase our product.  
 
 ## User Experience (UX)
 
 ### Target Audience
-  - People looking for Ice Cream
+  - 
 
-### User Stories
+### Site Goals
+
+  #### Site Owner Goals
+  As the site/business owner I want to:
+  - create an online presence to promote my business.
+  - grow my customer base.
+  - provide my customers with important information about my business, such as menu and opening hours.
+  - provide my customers with a quick and easy means to contact us with any questions or concerns. 
 
   #### First Time Visitor Goals
+  As a First Time User I want to:
   - easily navigate the website.
   - find out the location and opening hours.
   - easily understand the purpose of the site.
   - find the menu and prices.
 
   #### Returning Visitor Goals
-
   As a Returning User I want to:
-      * easily find the menu and new offerings.
-      * quickly access the opening hours.
-      * provide feedback or ask questions.
+  - easily find the menu and new offerings.
+  - quickly access the opening hours.
+  - provide feedback or ask questions.
 
 
 ## Design
 
 ### Colour
-The colour scheme for this website is pink with white and black accents. The pink colour was extracted from the hero image using Microsoft Paint. 
+The colour scheme for this website is pink with white and black accents. The pink colour was extracted from the hero image using Microsoft Paint and various hues of that colour were used throughout the site. The colour scheme helps to provide a bright vibrant site that lifts the users mood as they navigate through it. 
 
 ### Fonts
 Google Fonts was used to import the Lato and Oswald fonts. These were chosen as they compliment each other well and have a simple and modern aesthetic. 
@@ -36,19 +58,19 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="documentation/wireframes/Mobile-Phone-Home.png">
-<img src="documentation/wireframes/Tablet-Home.png">
-<img src="documentation/wireframes/Laptop-Home.png">
+<img src="documentation/wireframes/mobile-phone-home.png">
+<img src="documentation/wireframes/tablet-home.png">
+<img src="documentation/wireframes/laptop-home.png">
 </details>
 <details><summary>Menu</summary>
-<img src="documentation/wireframes/Mobile-Phone-Menu.png">
-<img src="documentation/wireframes/Tablet-Menu.png">
-<img src="documentation/wireframes/Laptop-Menu.png">
+<img src="documentation/wireframes/mobile-phone-menu.png">
+<img src="documentation/wireframes/tablet-menu.png">
+<img src="documentation/wireframes/laptop-menu.png">
 </details>
 <details><summary>Contact</summary>
-<img src="documentation/wireframes/Mobile-Phone-Contact.png">
-<img src="documentation/wireframes/Tablet-Contact.png">
-<img src="documentation/wireframes/Laptop-Contact.png">
+<img src="documentation/wireframes/mobile-phone-contact.png">
+<img src="documentation/wireframes/tablet-contact.png">
+<img src="documentation/wireframes/laptop-contact.png">
 </details>
 
 
@@ -56,6 +78,15 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 
 ### Logo and Navigation Bar
 - A simple and interactive Logo and Navigation Bar is located at the top of each page. 
+- The Logo links back to the homepage from any page throughout the site as this is a behaviour that would be expected by the user. 
+- The navigation bar is located in the same position on each page and provides links to the three pages in the website (Home, Menu, Contact Us). 
+- The page that the user is actively using is underlined in the navigation bar to provide a clear view as to which page they are currently on. 
+- A thicker underline appears under each page name as the mouse hovers over it to assist in easy navigation for the user.
+- The navigation bar is fully responsive on all screen sizes and collapses to a toggler on smaller screen sizes for ease of use. 
+
+<img src="documentation/navigationbar.jpg">
+<img src="navi
+
 
 
 ## Technologies Used
@@ -130,7 +161,7 @@ This site was deployed via GitHub
 
 Link to the live project: [SCOOPS Homemade Ice Cream](https://michelleduda.github.io/scoops-ice-cream/index.html)
 
-# Credits
+## Credits
 
 ### Photos
 
