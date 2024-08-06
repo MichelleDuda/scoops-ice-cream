@@ -130,6 +130,10 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
     - <a href="https://github.com/michelleduda/scoops-ice-cream/blob/main/documentation/validation-results/css-validation-results.pdf" target="_blank">CSS Results</a>
 
 ### Browser Compatibility
+This website was tested on the following browsers:
+- Google Chrome Version 127.0.6533.89 (Official Build) (64-bit)
+- Microsoft Edge Version 127.0.2651.86 (Official build) (64-bit)
+- Mozilla Firefox Version 128.0.3 (64-bit)
 
 ### Lighthouse Testing
 - Lighthouse result for index.html
