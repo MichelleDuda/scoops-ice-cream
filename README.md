@@ -221,8 +221,9 @@ Link to the live project: [SCOOPS Homemade Ice Cream](https://michelleduda.githu
 ### Code
 
 1. Dynamic Resizing of iframe from [Stack Overflow](https://stackoverflow.com/questions/21868789/dynamically-resize-iframe).
-2. Changing color of placeholder text from [W3Schools](https://www.w3schools.com/howto/howto_css_placeholder.asp).
+2. The concept for the navbar toggler and the hero-image with cover-text was adapted from the Code Institute Love Running Walkthrough Project. 
+
 
 ### Acknowledgements
 
-1. 
+1. My mentor Dick Vlaanderen for all his helpful advice, guidance, and support.
