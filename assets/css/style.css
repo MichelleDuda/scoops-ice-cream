@@ -285,6 +285,7 @@ main {
     border-radius: 20px;
 }
 
+/* code adapted from https://stackoverflow.com/questions/21868789/dynamically-resize-iframe to resize map */
 #map-container {
     width: 100%;
     height: 250px;
@@ -296,6 +297,7 @@ main {
     border: 1px solid black;
     overflow: auto;
 }
+/* end of code adapted from https://stackoverflow.com/questions/21868789/dynamically-resize-iframe */
 
 #find-us {
     color: #252525;
@@ -329,11 +331,6 @@ main {
 #feedback {
     height: 75px;
 }
-
-::placeholder {
-    color: #252525;
-}
-
 
 .submit-button {
     background-color: #454b1b;
