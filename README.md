@@ -85,8 +85,47 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 - The navigation bar is fully responsive on all screen sizes and collapses to a toggler on smaller screen sizes for ease of use. 
 
 <img src="documentation/navigationbar.jpg">
-<img src="navi
+<img src="documentation/navigationbar-small.jpg">
 
+### Landing Image and Call to Action
+- The Landing page contains a hero image and text overlay that clearly communicates the purpose of the website.
+- A  button stating "View Menu" is also included in the text overlay as a call to action for the user. This serves as a quick link to the menu page. 
+<img src="documentation/landingimage.jpg">
+
+### About Us Section
+- The About Us section is located on the main page under the hero image. It contains plain black text on a white background to maintain a clean and simple appearance, mimicing the clean simplicity of the ingredients we utilize.
+- This section gives the user a clear description of what the company does and what its main ideals are. 
+<img src="documentation/aboutus.jpg">
+
+### Footer
+- The Footer section contains 3 separate sections with imporatant information that a user could need easy access to - Opening Hours, Social Media Links, and Address/Telephone Number.
+- The Footer is the same on all 4 pages of the website - Home, Menu, Contact, and Confirmation pages.
+- The footer is placed on a pale pink background in keeping with the overall color scheme and to distinguish it from the rest of the page. 
+
+<img src="documentation/footer.jpg">
+
+### Page Heading
+- Each page contains a heading element that lies over the same background image that was utilized as the hero image on the landing page. This allows all pages of the website to maintain a consistent look. 
+
+<img src="documentation/menuheading.jpg"> 
+<img src="documentation/contactheading.jpg">
+
+### Menu Page - Flavors and Price List
+- The Flavors section contains the current flavor options available to customers. Each flavor block contains the flavor name, a description, and a photo that relates to the flavor. This section is fully responsive and the blocks resize and wrap depending on the screen size. 
+- The Price List section allows users to see the cost of our products and what sizes and options are availble to them - cups/cones to enjoy now, milkshakes for something a bit different, or a various size cartons to take back home to enjoy!
+
+<img src="documentation/menupage.jpg">
+
+### Contact Us Page
+- The contact section of the page contains both a Contact Us section and a Find Us section. 
+- The contact Us section contains a form that prompts users to enter their name, email address, and a message. Clicking the send button results in the user being brought to the confirmation page. 
+- The Find Us section contains a map embedded from [Google Maps](https://maps.google.com) which the user can interact with along with our address and telephone number.
+
+<img src="documentation/contactus.jpg">
+
+### Future Features
+- A feature that allows users to place an order online by adding items to a cart and paying.
+- An additional section on the contact us form to allow users to sign up for discounts or a mailing list. 
 
 
 ## Technologies Used
@@ -129,12 +168,6 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
   - Full Validation Results available:
     - <a href="https://github.com/michelleduda/scoops-ice-cream/blob/main/documentation/validation-results/css-validation-results.pdf" target="_blank">CSS Results</a>
 
-### Browser Compatibility
-This website was tested on the following browsers:
-- Google Chrome Version 127.0.6533.89 (Official Build) (64-bit)
-- Microsoft Edge Version 127.0.2651.86 (Official build) (64-bit)
-- Mozilla Firefox Version 128.0.3 (64-bit)
-
 ### Lighthouse Testing
 - Lighthouse result for index.html
     ![Lighthouse results index](documentation/lighthouse/lighthouse_index.jpg)
@@ -144,6 +177,12 @@ This website was tested on the following browsers:
     ![Lighthouse results conatct](documentation/lighthouse/lighthouse_contact.jpg)
 - Lighthouse result for confirmation.html
     ![Lighthouse results confirmation](documentation/lighthouse/lighthouse_confirmation.jpg)
+
+### Browser Compatibility
+This website was tested on the following browsers:
+- Google Chrome Version 127.0.6533.89 (Official Build) (64-bit)
+- Microsoft Edge Version 127.0.2651.86 (Official build) (64-bit)
+- Mozilla Firefox Version 128.0.3 (64-bit)
 
 ### Bugs
 1. HTML Validator found stray end tag of for main element at line 155. Fixed.
