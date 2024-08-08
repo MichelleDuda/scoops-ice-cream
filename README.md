@@ -21,9 +21,6 @@ The website is targeted to users who want to purchase artisan ice cream made wit
 
 ## User Experience (UX)
 
-### Target Audience
-  - 
-
 ### Site Goals
 
   #### Site Owner Goals
@@ -51,6 +48,8 @@ The website is targeted to users who want to purchase artisan ice cream made wit
 
 ### Colour
 The colour scheme for this website is pink with white and black accents. The pink colour was extracted from the hero image using Microsoft Paint and various hues of that colour were used throughout the site. The colour scheme helps to provide a bright vibrant site that lifts the users mood as they navigate through it. 
+
+<img src="documentation/colorpallete.jpg">
 
 ### Fonts
 Google Fonts was used to import the Lato and Oswald fonts. These were chosen as they compliment each other well and have a simple and modern aesthetic. 
