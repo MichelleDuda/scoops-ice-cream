@@ -30,10 +30,7 @@ h3 {
     color: #252525;
 }
 
-.black-text {
-    color: #252525;
-}
-
+/* CSS classes to overwrite default font colors */
 .white-text {
     color: #fafafa;
 }
@@ -44,7 +41,7 @@ h3 {
 
 /* Header */
 header {
-    background-color:#ffffff;
+    background-color: #ffffff;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -130,11 +127,6 @@ main {
     padding-right: 10px;
 }
 
-#hero-cover-text>h2,
-#hero-cover-text>h3 {
-    color: #ffffff;
-}
-
 #menu-button {
     display: inline-block;
     background-color: #F21277ff;
@@ -149,29 +141,12 @@ main {
 }
 
 #about-us {
-    text-align: center;
     padding: 15px;
 }
 
 
 #selling-points div {
-    color: #252525;
     padding: 15px;
-    text-align: center;
-}
-
-#information div {
-    color: #252525;
-}
-
-#hours {
-    display: flex;
-    justify-content: center;
-}
-
-#days {
-    padding: 0 10px 0 0;
-    text-align: left;
 }
 
 
@@ -194,12 +169,6 @@ main {
     padding: 5px;
 }
 
-#menu-header-text h1,
-#menu-header-text h2,
-#menu-header-text h3 {
-    color: #ffffff;
-}
-
 /* Menu Page - Flavors Menu Section */
 #flavor-menu {
     /* handles resonsivity without the need for a media query */
@@ -209,17 +178,11 @@ main {
 }
 
 #flavor-menu div {
-    color: #252525;
     padding: 25px;
     text-align: center;
     flex: 1 0 50%;
     /* create border around each flavor block */
     border: 10px solid rgba(214, 60, 129, 0.7);
-}
-
-#flavor-menu h2 {
-    /* override the heading color set in general styles */
-    color: #252525;
 }
 
 #flavor-menu img {
@@ -229,10 +192,6 @@ main {
     height: auto;
     max-width: 201.22px;
     max-height: 170.05px;
-}
-
-#price-list h3 {
-    text-align: center;
 }
 
 .pricing {
@@ -262,14 +221,8 @@ main {
     background-color: rgba(214, 60, 129, 0.9);
     font-size: 180%;
     border-radius: 10px;
-    text-align: center;
     padding: 5px;
 }
-
-#contact-header-text h2 {
-    color: #fafafa;
-}
-
 
 #contact {
     padding: 10px 5% 0 5%;
@@ -297,17 +250,16 @@ main {
     border: 1px solid black;
     overflow: auto;
 }
+
 /* end of code adapted from https://stackoverflow.com/questions/21868789/dynamically-resize-iframe */
 
 #find-us {
-    color: #252525;
     background-color: #ffffff;
     padding: 30px;
     border: 10px solid rgba(214, 60, 129, 0.7);
 }
 
 #contact-form {
-    color: #252525;
     background-color: #ffffff;
     padding: 30px;
     border-radius: 20px;
@@ -356,7 +308,6 @@ main {
     background-color: rgba(214, 60, 129, 0.9);
     font-size: 180%;
     border-radius: 10px;
-    text-align: center;
     padding: 5px;
 }
 
@@ -367,7 +318,17 @@ main {
 footer {
     border-top: 2px dotted #dfcfdc;
     padding-top: 25px;
-    background-color:#F6E0EA;
+    background-color: #F6E0EA;
+}
+
+#hours {
+    display: flex;
+    justify-content: center;
+}
+
+#days {
+    padding: 0 10px 0 0;
+    text-align: left;
 }
 
 .middle-container {
@@ -435,14 +396,8 @@ footer {
     }
 
     #selling-points div {
-        color: #252525;
         padding: 15px;
-        text-align: center;
         flex-basis: 33.333%;
-    }
-
-    #information {
-        margin: 10px 25% 0 25%;
     }
 
     /* Menu Page */
@@ -479,6 +434,7 @@ footer {
         justify-content: space-evenly;
     }
 
+    /* rearranges order of footer sections for better symmetry */
     .middle-container {
         order: 3;
     }
