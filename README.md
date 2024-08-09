@@ -5,14 +5,37 @@
 ## Index - Table of Contents
 * [Introduction](#introduction)
 * [User Experience (UX)](#user-experience-ux) 
-* [Target Audience](#target-audience) 
-* [Site Goals](#site-goals) 
+    * [Site Goals](#site-goals) 
 * [Design](#design)
+    * [Colour](#colour)
+    * [Fonts](#fonts)
+    * [Wireframes](#wireframes)
 * [Features](#features)
+    * [Logo and Navigation Bar](#logo-and-navigation-bar)
+    * [Landing Image and Call to Action](#landing-image-and-call-to-action)
+    * [About Us Section](#about-us-section)
+    * [Footer](#footer)
+    * [Page Heading](#page-heading)
+    * [Menu Page - Flavors and Price List](#menu-page---flavors-and-price-list)
+    * [Contact Us Page](#contact-us-page)
+    * [Future Features](#future-features)
 * [Technologies Used](#technologies-used)
+    * [Languages](#languages)
+    * [Frameworks, Libraries and Programs Used](#frameworks-libraries--programs-used)
 * [Testing](#testing)
+    * [Validator Testing](#validator-testing)
+    * [Lighthouse Testing](#lighthouse-testing)
+    * [Additonal Manual Testing](#additonal-manual-testing)
+    * [Browser Compatibility](#browser-compatibility)
+    * [Bugs](#bugs)
+    * [Known Bugs](#known-bugs)
 * [Deployment](#deployment)
+    * [How This Site Was Deployed](#how-this-site-was-deployed)
 * [Credits](#credits)
+    * [Photos](#photos)
+    * [Code](#code)
+    * [Acknowledgements](#acknowledgements)
+
 
 ## Introduction
 This website is for SCOOPS, a fictional artisan ice cream company located in Beale, County Kerry, Ireland. The company is focused on creating small batches of handmade quality product with fresh local ingredients. 
@@ -70,6 +93,11 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 <img src="documentation/wireframes/mobile-phone-contact.png">
 <img src="documentation/wireframes/tablet-contact.png">
 <img src="documentation/wireframes/laptop-contact.png">
+</details>
+<details><summary>Confirmation</summary>
+<img src="documentation/wireframes/mobile-phone-confirmation.png">
+<img src="documentation/wireframes/tablet-confirmation.png">
+<img src="documentation/wireframes/laptop-confirmation.png">
 </details>
 
 
