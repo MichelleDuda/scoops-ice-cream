@@ -25,7 +25,7 @@
 * [Testing](#testing)
     * [Validator Testing](#validator-testing)
     * [Lighthouse Testing](#lighthouse-testing)
-    * [Additonal Manual Testing](#additonal-manual-testing)
+    * [Additional Manual Testing](#additional-manual-testing)
     * [Browser Compatibility](#browser-compatibility)
     * [Bugs](#bugs)
     * [Known Bugs](#known-bugs)
@@ -34,34 +34,34 @@
 * [Credits](#credits)
     * [Photos](#photos)
     * [Code](#code)
-    * [Acknowledgements](#acknowledgements)
+    * [Acknowledgments](#acknowledgments)
 
 
 ## Introduction
-This website is for SCOOPS, a fictional artisan ice cream company located in Beale, County Kerry, Ireland. The company is focused on creating small batches of handmade quality product with fresh local ingredients. 
+This website is for SCOOPS, a fictional artisan ice cream company located in Beale, County Kerry, Ireland. The company is focused on creating small batches of handmade quality products with fresh local ingredients. 
 
-The website is targeted to users who want to purchase artisan ice cream made with quality ingredients. The site exhibits the various flavors offered as well as other important information to help users locate the business and purchase our product.  
+The website targets users who want to purchase artisan ice cream made with quality ingredients. The site exhibits the various flavors offered as well as other important information to help users locate the business and purchase our product.  
 
 ## User Experience (UX)
 
 ### Site Goals
 
   #### Site Owner Goals
-  As the site/business owner I want to:
+  As the site/business owner, I want to:
   - create an online presence to promote my business.
   - grow my customer base.
   - provide my customers with important information about my business, such as menu and opening hours.
   - provide my customers with a quick and easy means to contact us with any questions or concerns. 
 
   #### First Time Visitor Goals
-  As a First Time User I want to:
+  As a First Time User, I want to:
   - easily navigate the website.
   - find out the location and opening hours.
   - easily understand the purpose of the site.
   - find the menu and prices.
 
   #### Returning Visitor Goals
-  As a Returning User I want to:
+  As a Returning User, I want to:
   - easily find the menu and new offerings.
   - quickly access the opening hours.
   - provide feedback or ask questions.
@@ -70,12 +70,12 @@ The website is targeted to users who want to purchase artisan ice cream made wit
 ## Design
 
 ### Colour
-The colour scheme for this website is pink with white and black accents. The pink colour was extracted from the hero image using Microsoft Paint and various hues of that colour were used throughout the site. The colour scheme helps to provide a bright vibrant site that lifts the users mood as they navigate through it. 
+The colour scheme for this website is pink with white and black accents. The pink colour was extracted from the hero image using Microsoft Paint and various hues of that colour were used throughout the site. The colour scheme helps to provide a bright vibrant site that lifts the user's mood as they navigate through it. 
 
 <img src="documentation/colorpallete.jpg">
 
 ### Fonts
-Google Fonts was used to import the Lato and Oswald fonts. These were chosen as they compliment each other well and have a simple and modern aesthetic. 
+Google Fonts was used to import the Lato and Oswald fonts. These were chosen as they complement each other well and have a simple and modern aesthetic. 
 
 ### Wireframes
 
@@ -104,10 +104,10 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 ## Features
 
 ### Logo and Navigation Bar
-- A simple and interactive Logo and Navigation Bar is located at the top of each page. 
+- A simple and interactive Logo and Navigation Bar are located at the top of each page. 
 - The Logo links back to the homepage from any page throughout the site as this is a behaviour that would be expected by the user. 
-- The navigation bar is located in the same position on each page and provides links to the three pages in the website (Home, Menu, Contact Us). 
-- The page that the user is actively using is underlined in the navigation bar to provide a clear view as to which page they are currently on. 
+- The navigation bar is located in the same position on each page and provides links to the three pages of the website (Home, Menu, Contact Us). 
+- The page that the user is actively using is underlined in the navigation bar to provide a clear view of which page they are currently on. 
 - A thicker underline appears under each page name as the mouse hovers over it to assist in easy navigation for the user.
 - The navigation bar is fully responsive on all screen sizes and collapses to a toggler on smaller screen sizes for ease of use. 
 
@@ -120,12 +120,12 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 <img src="documentation/landingimage.jpg">
 
 ### About Us Section
-- The About Us section is located on the main page under the hero image. It contains plain black text on a white background to maintain a clean and simple appearance, mimicing the clean simplicity of the ingredients we utilize.
+- The About Us section is located on the main page under the hero image. It contains plain black text on a white background to maintain a clean and simple appearance, mimicking the clean simplicity of our ingredients.
 - This section gives the user a clear description of what the company does and what its main ideals are. 
 <img src="documentation/aboutus.jpg">
 
 ### Footer
-- The Footer section contains 3 separate sections with imporatant information that a user could need easy access to - Opening Hours, Social Media Links, and Address/Telephone Number.
+- The Footer section contains 3 separate sections with important information that a user could need easy access to - Opening Hours, Social Media Links, and Address/Telephone Number.
 - The Footer is the same on all 4 pages of the website - Home, Menu, Contact, and Confirmation pages.
 - The footer is placed on a pale pink background in keeping with the overall color scheme and to distinguish it from the rest of the page. 
 
@@ -139,21 +139,20 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 
 ### Menu Page - Flavors and Price List
 - The Flavors section contains the current flavor options available to customers. Each flavor block contains the flavor name, a description, and a photo that relates to the flavor. This section is fully responsive and the blocks resize and wrap depending on the screen size. 
-- The Price List section allows users to see the cost of our products and what sizes and options are availble to them - cups/cones to enjoy now, milkshakes for something a bit different, or a various size cartons to take back home to enjoy!
+- The Price List section allows users to see the cost of our products and what sizes and options are available to them - cups/cones to enjoy now, milkshakes for something a bit different, or various-sized cartons to take back home to enjoy!
 
 <img src="documentation/menupage.jpg">
 
 ### Contact Us Page
-- The contact section of the page contains both a Contact Us section and a Find Us section. 
-- The contact Us section contains a form that prompts users to enter their name, email address, and a message. Clicking the send button results in the user being brought to the confirmation page. 
+- The Contact section of the page contains both a Contact Us section and a Find Us section. 
+- The Contact Us section contains a form that prompts users to enter their name, email address, and a message. Clicking the send button will bring the user to the confirmation page. 
 - The Find Us section contains a map embedded from [Google Maps](https://maps.google.com) which the user can interact with along with our address and telephone number.
 
 <img src="documentation/contactus.jpg">
 
 ### Future Features
 - A feature that allows users to place an order online by adding items to a cart and paying.
-- An additional section on the contact us form to allow users to sign up for discounts or a mailing list. 
-
+- An additional section on the Contact Us form to allow users to sign up for discounts or a mailing list. 
 
 ## Technologies Used
 
@@ -162,9 +161,9 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 - CSS
 
 ### Frameworks, Libraries & programs Used
-- [Google Fonts:](https://fonts.google.com) was used for the fonts: Oswald and Lato.
-- [Font Awesome:](https://fontawesome.com/) was used for various icons in the footer and headings of the pages. 
-- [Google Maps:](https://maps.google.com/) was used for the locaiton map. 
+- [Google Fonts](https://fonts.google.com) was used for the fonts: Oswald and Lato.
+- [Font Awesome](https://fontawesome.com/) was used for various icons in the footer and headings of the pages. 
+- [Google Maps](https://maps.google.com/) was used for the location map. 
 
 
 ## Testing
@@ -209,13 +208,13 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 
     ![Lighthouse results confirmation](documentation/lighthouse/lighthouse_confirmation.jpg)
 
-### Additonal Manual Testing
+### Additional Manual Testing
 | ID  | Feature Tested                  | Steps                                                                                                                                                                                                                                  | Expeted Outcome                                                                                                                                                                | Results           |
 | --- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- |
-| T01 | Navigation - navbar             | Go to Home Page. Click on Each of the navbar links (Home, Menu, Contact).<br>Go to Menu Page. Click on Each of the navbar links (Home, Menu, Contact).<br>Go to Contact Page. Click on Each of the navbar links (Home, Menu, Contact). | Link brings user to the corresponding page (Home - index.html, Menu - menu.html, Contact Us - contact.html).Once on the page the corresponding navbar item will be underlined. | Works As Expected |
+| T01 | Navigation - navbar             | Go to Home Page. Click on Each of the navbar links (Home, Menu, Contact).<br>Go to Menu Page. Click on Each of the navbar links (Home, Menu, Contact).<br>Go to Contact Page. Click on Each navbar link (Home, Menu, Contact). | Link brings user to the corresponding page (Home - index.html, Menu - menu.html, Contact Us - contact.html).Once on the page the corresponding navbar item will be underlined. | Works As Expected |
 | T02 | Navigation - logo               | Click on Scoops Logo at top of page. Repeat on Menu, Contact Us, and Confirmation page                                                                                                                                                 | Link brings user back to Home page (index.html).                                                                                                                               | Works As Expected |
 | T03 | Navigation - Social Media       | Go to Footer on Home Page and Click on each social media link (Facebook, Twitter, Youtube, and Instagram). Repeat on Menu, Contact Us and Confirmation Page.                                                                           | Each link brings user to the corresponding social media page. The page opens up in a new tab.                                                                                  | Works As Expected |
-| T04 | Navigation - Menu Button        | Go to Home Page, Click on View Menu button that is overlaying the hero image.                                                                                                                                                          | Link brings user to the menu page.                                                                                                                                             | Works As Expected |
+| T04 | Navigation - Menu Button        | Go to Home Page, Click on View Menu button that overlays the hero image.                                                                                                                                                          | Link brings user to the menu page.                                                                                                                                             | Works As Expected |
 | T05 | Form - Input Check (First Name) | Go to Contact Us page and submit blank form.                                                                                                                                                                                           | Message requiring user to input first name.                                                                                                                                    | Works As Expected |
 | T06 | Form - Input Check (Last Name)  | Go to Contact Us page and submit form with only first name.                                                                                                                                                                            | Message requiring user to input last name.                                                                                                                                     | Works As Expected |
 | T07 | Form - Input Check (Email)      | Go to Contact Us page and submit form without email address.                                                                                                                                                                           | Message requiring user to input email address.                                                                                                                                 | Works As Expected |
@@ -224,7 +223,7 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 | T10 | Form - Submission Check         | Go to Contact Us page and submit form with all fields filled out as required.                                                                                                                                                          | User is redirected to confirmation.html                                                                                                                                        | Works As Expected |
 | T11 | UX - Hero Image                 | Visually Check the Home Page for positioning and readability                                                                                                                                                                           | Text is legible and positioned properly.                                                                                                                                       | Works As Expected |
 | T12 | UX - Menu                       | Visually Check the Menu Items for positioning and readability. Resize screen and check that Menu changes to toggler on smaller screens.                                                                                                | Text is legible and positioned properly. Navbar changes to toggler at 768px.                                                                                                   | Works As Expected |
-| T13 | UX - Footer                     | Visually Check the Footer for positioning and readability. Resize screen and check that Footer stacks vertically rather than horiozontally.                                                                                            | Text is legible and positioned properly. Footer sections stack vertically on smaller screens                                                                                   | Works As Expected |
+| T13 | UX - Footer                     | Visually Check the Footer for positioning and readability. Resize screen and check that Footer stacks vertically rather than horizontally.                                                                                            | Text is legible and positioned properly. Footer sections stack vertically on smaller screens                                                                                   | Works As Expected |
 | T14 | UX - Contact Page               | Visually Check the contact form and find us div for positioning and readability.                                                                                                                                                       | Text is legible and positioned properly.                                                                                                                                       | Works As Expected |
 | T15 | Interaction - Google Maps       | Go to Contact Us page and interact with map.                                                                                                                                                                                           | User is able to manually drag and zoom map.                                                                                                                                    | Works As Expected |
 | T16 | Interaction - Google Maps       | Go to Contact Us page and click on view larger map.                                                                                                                                                                                    | User will be redirected to maps.google.com at appropriate location.                                                                                                            | Works As Expected |
@@ -252,7 +251,7 @@ This site was deployed via GitHub
 4. Click on the [Pages](https://github.com/MichelleDuda/scoops-ice-cream/settings/pages) option in the left-hand pane. 
 5. Select the main branch from the source dropdown menu.
 6. Once the main branch has been selected the page will refresh automatically with a ribbon displaying that the deployment has been successful.
-7. Any changes pused to the main branch will now take effect in the live project. 
+7. Any changes pushed to the main branch will now take effect in the live project. 
 
 Link to the live project: [SCOOPS Homemade Ice Cream](https://michelleduda.github.io/scoops-ice-cream/index.html)
 
@@ -276,6 +275,6 @@ Link to the live project: [SCOOPS Homemade Ice Cream](https://michelleduda.githu
 2. The concept for the navbar toggler and the hero-image with cover-text was adapted from the Code Institute Love Running Walkthrough Project. 
 
 
-### Acknowledgements
+### Acknowledgments
 
 1. My mentor Dick Vlaanderen for all his helpful advice, guidance, and support.
