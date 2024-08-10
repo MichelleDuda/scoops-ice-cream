@@ -237,6 +237,8 @@ This website was tested on the following browsers:
 
 ### Bugs
 1. HTML Validator found stray end tag of for main element at line 155. Fixed.
+2. Contact Page was allowing for submission of form without any message. Fixed by adding required tag to the feedback field.  
+
 ### Known Bugs
 
 
@@ -254,6 +256,17 @@ This site was deployed via GitHub
 7. Any changes pushed to the main branch will now take effect in the live project. 
 
 Link to the live project: [SCOOPS Homemade Ice Cream](https://michelleduda.github.io/scoops-ice-cream/index.html)
+
+### How to Clone the Repository
+
+To Clone this repository:
+1. Navigate to [https://github.com/MichelleDuda/scoops-ice-cream](https://github.com/MichelleDuda/scoops-ice-cream).
+2. Click on the "<> Code" button.
+3. Copy the URL for the repository using HTTPS, SSH, or GitHub CLI. 
+4. Open Git Bash.
+5. Change the working directory to the location you want to clone the directory to. 
+6. Type git clone and paste the URL that was copied earlier. 
+7. Press Enter to begin the clone process. 
 
 ## Credits
 
