@@ -238,10 +238,10 @@ This website was tested on the following browsers:
 
 ### Bugs
 1. HTML Validator found stray end tag of for main element at line 155. Fixed.
-2. Contact Page was allowing for submission of form without any message. Fixed by adding required tag to the feedback field.  
+2. Contact Page was allowing for submission of form without any message. Fixed by adding required tag to the feedback field. 
 
 ### Known Bugs
-
+There are no unaddressed known bugs at this time. 
 
 ## Deployment
 
@@ -287,6 +287,7 @@ To Clone this repository:
 
 1. Dynamic Resizing of iframe from [Stack Overflow](https://stackoverflow.com/questions/21868789/dynamically-resize-iframe).
 2. The concept for the navbar toggler and the hero-image with cover-text was adapted from the Code Institute Love Running Walkthrough Project. 
+3. [TabletoMarkdown.com](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) was used to convert my additional manual testing table from an excel spreadsheet to markdown. 
 
 
 ### Acknowledgments
