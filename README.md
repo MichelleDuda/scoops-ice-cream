@@ -164,6 +164,7 @@ Google Fonts was used to import the Lato and Oswald fonts. These were chosen as 
 - [Google Fonts](https://fonts.google.com) was used for the fonts: Oswald and Lato.
 - [Font Awesome](https://fontawesome.com/) was used for various icons in the footer and headings of the pages. 
 - [Google Maps](https://maps.google.com/) was used for the location map. 
+- [Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 
 
 ## Testing
@@ -291,3 +292,4 @@ To Clone this repository:
 ### Acknowledgments
 
 1. My mentor Dick Vlaanderen for all his helpful advice, guidance, and support.
+2. The manual testing table included on this Readme was suggested by my mentor Dick Vlaanderen and is modeled after one done on the following Readme: [https://github.com/elainebroche-dev/ms1-thrive](https://github.com/elainebroche-dev/ms1-thrive)
